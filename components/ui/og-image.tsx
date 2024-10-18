@@ -1,5 +1,3 @@
-import { Shield, Zap, Lock } from "lucide-react";
-
 export default function OGImage() {
   return (
     <div
