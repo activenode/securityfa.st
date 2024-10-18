@@ -114,9 +114,9 @@ export function SecurityFastComponent() {
             </Card>
           ))}
         </div>
-        <footer className="text-center mt-12 text-gray-500 text-sm">
+        <footer className="text-center mt-12 text-gray-500 text-lg pb-20">
           <p>
-            Created by{" "}
+            Created with 💙 by{" "}
             <a
               className="text-blue-500 hover:underline"
               href="https://twitter.com/activenode"

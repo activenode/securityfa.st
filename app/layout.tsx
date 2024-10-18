@@ -15,10 +15,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "SecurityFa.st",
-  description: "Where speed trumps security, always!",
+  description: "Ship even faster. The fastest security boilerplate.",
   openGraph: {
     title: "SecurityFa.st",
-    description: "Where speed trumps security, always!",
+    description: "Ship even faster. The fastest security boilerplate.",
     images: [
       {
         url: "/og",
