@@ -82,19 +82,18 @@ export function SecurityFastComponent() {
   ];
 
   return (
-    <div className="min-h-screen p-8">
+    <div className="min-h-screen">
       <div className="container mx-auto">
         <header className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-2">
             SecurityFa.st
           </h1>
-          <p className="text-xl text-gray-600">
-            Where speed trumps security, always!
-          </p>
 
-          {/* info badge */}
-          <div className="bg-gray-100 text-red-500 p-2 rounded-md mt-4">
-            <p>Read it now, soon pay-to-see.</p>
+          <div className=" p-4 mb-8 mt-4">
+            <p>
+              All that counts is shipping fast. Proper security and data
+              protection? ngmi.
+            </p>
           </div>
         </header>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
