@@ -14,6 +14,7 @@ import {
   Cloud,
   Lock,
   Smartphone,
+  BicepsFlexed,
   PersonStanding,
 } from "lucide-react";
 
@@ -41,7 +42,7 @@ export function SecurityFastComponent() {
     },
     {
       title: "Insecurity is key",
-      bg: "bg-gradient-to-b from-blue-600 to-violet-600",
+      bg: "bg-gradient-to-b from-blue-600 to-violet-600 border-white border-4",
       col: "text-white",
       tip: (
         <>
@@ -52,11 +53,12 @@ export function SecurityFastComponent() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Get in touch with me.
+            Get in touch with me
           </a>
+          if you want to know how good you are at bad security.
         </>
       ),
-      icon: <PersonStanding className="h-8 w-8 text-white" />,
+      icon: <BicepsFlexed className="h-8 w-8 text-white" />,
     },
     {
       title: "Encryption Schmencryption",
