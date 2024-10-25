@@ -55,7 +55,7 @@ export function SecurityFastComponent() {
           >
             Get in touch with me
           </a>
-          if you want to know how good you are at bad security.
+          &nbsp; if you want to know how good you are at bad security.
         </>
       ),
       icon: <BicepsFlexed className="h-8 w-8 text-white" />,
