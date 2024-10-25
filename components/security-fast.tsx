@@ -52,7 +52,7 @@ export function SecurityFastComponent() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Click here to get some web app roast.
+            Get in touch with me.
           </a>
         </>
       ),
