@@ -115,15 +115,6 @@ export function SecurityFastComponent() {
               protection? ngmi.
             </p>
           </div>
-
-          <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-8 mt-4">
-            <p className="font-bold">🚀 Turbo-Charge Your Insecurity!</p>
-            <p>
-              Why wait for hackers when you can invite them in? I&apos;ve found
-              30k user data leaks to be a great motivator for shipping faster!
-              Book me here:
-            </p>
-          </div>
         </header>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {securityTips.map((tip, index) => (
