@@ -14,6 +14,7 @@ import {
   Cloud,
   Lock,
   Smartphone,
+  PersonStanding,
 } from "lucide-react";
 
 export function SecurityFastComponent() {
@@ -37,6 +38,25 @@ export function SecurityFastComponent() {
       title: "Firewall? More like Fire-lol!",
       tip: "Disable your firewall. If there's no wall, hackers can't climb over it!",
       icon: <Shield className="h-8 w-8 text-red-500" />,
+    },
+    {
+      title: "Insecurity is key",
+      bg: "bg-gradient-to-b from-blue-600 to-violet-600",
+      col: "text-white",
+      tip: (
+        <>
+          Why wait for hackers when you can invite them in?
+          <a
+            className="pl-1 text-yellow-100 underline"
+            href="https://cal.com/activenode/job-opportunity-call"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Click here to get some web app roast.
+          </a>
+        </>
+      ),
+      icon: <PersonStanding className="h-8 w-8 text-white" />,
     },
     {
       title: "Encryption Schmencryption",
@@ -95,12 +115,21 @@ export function SecurityFastComponent() {
               protection? ngmi.
             </p>
           </div>
+
+          <div className="bg-yellow-100 border-l-4 border-yellow-500 p-4 mb-8 mt-4">
+            <p className="font-bold">🚀 Turbo-Charge Your Insecurity!</p>
+            <p>
+              Why wait for hackers when you can invite them in? I&apos;ve found
+              30k user data leaks to be a great motivator for shipping faster!
+              Book me here:
+            </p>
+          </div>
         </header>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {securityTips.map((tip, index) => (
             <Card
               key={index}
-              className="hover:shadow-lg transition-shadow duration-300"
+              className={`hover:shadow-lg transition-shadow duration-300 ${tip.bg} ${tip.col}`}
             >
               <CardHeader className="flex flex-row items-center gap-4">
                 {tip.icon}
@@ -109,7 +138,7 @@ export function SecurityFastComponent() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600">{tip.tip}</p>
+                <p className={tip.col ?? "text-gray-600"}>{tip.tip}</p>
               </CardContent>
             </Card>
           ))}
