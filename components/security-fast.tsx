@@ -3,19 +3,18 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   AlertTriangle,
-  Key,
+  BicepsFlexed,
+  Cloud,
   Eye,
   Fingerprint,
-  Shield,
-  X,
-  RefreshCcw,
   Glasses,
-  Zap,
-  Cloud,
+  Key,
   Lock,
+  RefreshCcw,
+  Shield,
   Smartphone,
-  BicepsFlexed,
-  PersonStanding,
+  X,
+  Zap,
 } from "lucide-react";
 
 export function SecurityFastComponent() {
