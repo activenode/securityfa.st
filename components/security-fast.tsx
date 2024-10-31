@@ -14,6 +14,7 @@ import {
   Shield,
   Smartphone,
   X,
+  Italic,
   Zap,
 } from "lucide-react";
 
@@ -28,6 +29,12 @@ export function SecurityFastComponent() {
       title: "The Exposure Paradox",
       tip: "If everything is exposed, no one can make something public because it already is!",
       icon: <Eye className="h-8 w-8 text-yellow-500" />,
+    },
+    // Add this new object to the securityTips array
+    {
+      title: "Validation Vacation",
+      tip: "Users are your friends, not foes. Let them express themselves freely in your input fields!",
+      icon: <Italic className="h-8 w-8 text-rose-500" />,
     },
     {
       title: "Password Perfection",
